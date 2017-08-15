@@ -143,10 +143,10 @@ public class Fenetre extends JFrame implements ActionListener{
 		buildDefaultTree(IHM1_center);
 		
 		//Gestion du rendu
-		IHM1_txt_titre.		setBorder(BorderFactory.createTitledBorder("Intitulï¿½ du site :"));
+		IHM1_txt_titre.		setBorder(BorderFactory.createTitledBorder("Intitule du site :"));
 		IHM1_txt_videoPath.	setBorder(BorderFactory.createTitledBorder("Chemin vers le dossier contenant les videos :"));
-		IHM1_txt_nom.		setBorder(BorderFactory.createTitledBorder("Rï¿½ponse associï¿½ ï¿½ la video :"));
-		IHM1_txt_audioPath.	setBorder(BorderFactory.createTitledBorder("Chemin vers l'audio de la video associï¿½ ï¿½ la vidï¿½o :"));
+		IHM1_txt_nom.		setBorder(BorderFactory.createTitledBorder("Rï¿½ponse associe à la video :"));
+		IHM1_txt_audioPath.	setBorder(BorderFactory.createTitledBorder("Chemin vers l'audio de la video associe e la video :"));
 		IHM1_txt_sitePath.	setBorder(BorderFactory.createTitledBorder("Chemin vers l'emplacement qui contiendra le dossier du site :"));
 
 	}
